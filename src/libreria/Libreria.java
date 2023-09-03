@@ -85,7 +85,7 @@ public class Libreria {
         Date fechaInicio = sdf.parse(fechaInicioStr);
         Date fechaFin = sdf.parse(fechaFinStr);
         
-        prestamoser.crearPrestamo(new Prestamo(fechaInicio, fechaFin, libro1, cliente));
+       // prestamoser.crearPrestamo(new Prestamo(fechaInicio, fechaFin, libro1, cliente));
         
         
         
